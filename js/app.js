@@ -43,12 +43,10 @@
         });
 
         filteredProperties = [...allProperties];
-        applyFilters();
 
         initMap();
-        renderMarkers();
+        applyFilters();
         renderRealDataLayers();
-        updateStats();
         updateDataCount();
         bindEvents();
     }
