@@ -1,6 +1,6 @@
 /**
  * Guida Metodologica — Fonti Dati e Strategia di Ricerca
- * Aggiornata con fonti reali Open Data integrate
+ * Solo dati reali Open Data
  */
 
 const GuideContent = {
@@ -8,23 +8,10 @@ const GuideContent = {
         return `
         <h3><i class="fas fa-crosshairs"></i> Strategia di Prospecting</h3>
         <p>L'obiettivo è identificare immobili <strong>non ancora sul mercato</strong> ma con alta probabilità di essere venduti.
-        Ci concentriamo su segnali deboli che indicano una predisposizione alla vendita prima che l'immobile venga listato.</p>
-
-        <h3><i class="fas fa-brain"></i> Logica di Scoring (0-100)</h3>
-        <p>Ogni immobile riceve un punteggio basato su 7 fattori ponderati:</p>
-        <ol>
-            <li><strong>Età del Proprietario (peso 20%)</strong> — Proprietari over 75 hanno maggiore probabilità di cessione. Over 85 = score massimo.</li>
-            <li><strong>Stato dell'Immobile (peso 20%)</strong> — Immobili abbandonati o in pessimo stato indicano disinteresse del proprietario.</li>
-            <li><strong>Successione Recente (peso 18%)</strong> — Eredi che ricevono un immobile lo vendono nel 60-70% dei casi entro 3 anni.</li>
-            <li><strong>Fallimento/Asta (peso 15%)</strong> — Procedure concorsuali = vendita quasi certa. Le aste sono opportunità dirette.</li>
-            <li><strong>Vetustà Ristrutturazione (peso 12%)</strong> — Nessuna ristrutturazione da 20+ anni indica proprietà "dimenticata".</li>
-            <li><strong>Immobile Fermo (peso 10%)</strong> — Nessuna attività catastale/commerciale da anni. Immobile "dormiente".</li>
-            <li><strong>Assenza Eredi (peso 5%)</strong> — Proprietario senza eredi noti = futura gestione complessa, incentivo alla vendita.</li>
-        </ol>
-        <p><em>Bonus combinazioni: proprietario anziano + immobile degradato, successione + immobile fermo, anziano senza eredi. Fino a +17 punti extra.</em></p>
+        Questa dashboard utilizza <strong>esclusivamente dati reali</strong> da fonti pubbliche Open Data per individuare opportunità.</p>
 
         <h3 style="color:#16a34a"><i class="fas fa-check-circle"></i> Dati Reali Integrati (Open Data)</h3>
-        <p>Questa dashboard integra <strong>dati reali</strong> da fonti pubbliche Open Data:</p>
+        <p>Tutti i dati visualizzati provengono da fonti pubbliche verificabili:</p>
 
         <div class="source-card" style="border-left-color:#f97316">
             <h4>1. Edifici Degradati/Abbandonati (ds503) — Comune di Milano</h4>
